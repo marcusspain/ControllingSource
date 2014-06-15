@@ -129,10 +129,7 @@
 				E51BA06B194D1C97006CC8F0 /* AppDelegate.m */,
 				E51BA06D194D1C97006CC8F0 /* Main_iPhone.storyboard */,
 				E51BA070194D1C97006CC8F0 /* Main_iPad.storyboard */,
-				E51BA076194D1C97006CC8F0 /* MasterViewController.h */,
-				E51BA077194D1C97006CC8F0 /* MasterViewController.m */,
-				E51BA079194D1C97006CC8F0 /* DetailViewController.h */,
-				E51BA07A194D1C97006CC8F0 /* DetailViewController.m */,
+				E5A71A89194D1EAB000EC3A2 /* View Controllers */,
 				E51BA07C194D1C97006CC8F0 /* Images.xcassets */,
 				E51BA073194D1C97006CC8F0 /* ControllingSource.xcdatamodeld */,
 				E51BA062194D1C97006CC8F0 /* Supporting Files */,
@@ -167,6 +164,17 @@
 				E51BA08D194D1C97006CC8F0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5A71A89194D1EAB000EC3A2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E51BA076194D1C97006CC8F0 /* MasterViewController.h */,
+				E51BA077194D1C97006CC8F0 /* MasterViewController.m */,
+				E51BA079194D1C97006CC8F0 /* DetailViewController.h */,
+				E51BA07A194D1C97006CC8F0 /* DetailViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,6 +498,7 @@
 				E51BA096194D1C97006CC8F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E51BA097194D1C97006CC8F0 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				E51BA099194D1C97006CC8F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
